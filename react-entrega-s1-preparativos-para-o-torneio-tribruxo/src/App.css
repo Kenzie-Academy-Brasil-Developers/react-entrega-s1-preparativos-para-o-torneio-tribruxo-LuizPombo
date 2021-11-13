@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+p,
+h3 {
+  background-color: whitesmoke;
+}
+
+.Ravenclaw {
+  background-image: url("https://www.gursewingmachines.com/images/products/harry-potter-ravenclaw-house-on-blue-fabric_1_large.jpg");
+}
+.Slytherin {
+  background-image: url("https://www.gursewingmachines.com/images/products/harry-potter-slytherin-house-on-green-fabric_1_large.jpg");
+}
+.Hufflepuff {
+  background-image: url("https://www.gursewingmachines.com/images/products/harry-potter-hufflepuff-house-on-yellow-fabric_1_large.jpg");
+}
+.Gryffindor {
+  background-image: url("https://www.gursewingmachines.com/images/products/harry-potter-gryffindor-house-on-red-fabric_1_large.jpg");
+}
+
+img {
+  height: 100px;
+  width: 75px;
+  object-fit: cover;
+}
+
+@media (min-width: 700px) {
+  .cards {
+    flex-direction: row;
+  }
+}
