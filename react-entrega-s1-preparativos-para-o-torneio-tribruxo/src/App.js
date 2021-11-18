@@ -9,7 +9,7 @@ export default function App() {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    fetch("http://hp-api.herokuapp.com/api/characters/students")
+    fetch("https://hp-api.herokuapp.com/api/characters/students")
       .then((list) => list.json())
       .then((list) => {
         setStudents(list.filter(FilterImage));
